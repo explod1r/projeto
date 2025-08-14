@@ -1,0 +1,335 @@
+PERGUNTAS QUE FORAM MAL RESPONDIDAS PELAS IAs COM o uso do DATASHEET em INGLÊS: 
+
+The Pressure Trim process is used to adjust the measurement in relation to the applied pressure according to the user's pressure standard. Usually, the most common discrepancy found in transmitters is a zero shift, which can be corrected through a zero pressure trim or a lower pressure trim. What are the types of Pressure Trim available in the LD301? Please list them in bullet points along with their descriptions.
+
+The LD301 contains a variable that defines the device address in a HART® network. For the different versions of the HART® protocol, what are the possible address values, and when configured in multidrop mode, which icon is indicated? What is the factory default configuration of the LD301?
+
+-----------------------------------------------------
+
+🔄 Setting up RAG system with LD301 PDF...
+✅ RAG system configured!
+STARTING TESTS WITH MULTIPLE QUESTIONS AND RAG
+Total questions per model: 2
+
+################################################################################
+TESTING OLLAMA MODELS (LOCAL)
+################################################################################
+
+============================================================
+TESTING OLLAMA MODEL: phi3:latest
+============================================================
+
+--- QUESTION 1 ---
+QUESTION: The Pressure Trim process is used to adjust the measurement in relation to the applied pressure according to the user's pressure standard. Usually, the most common discrepancy found in transmitters is a zero shift, which can be corrected through a zero pressure trim or a lower pressure trim. What are the types of Pressure Trim available in the LD301? Please list them in bullet points along with their descriptions.
+ANSWER: - Lower Trim: Used to adjust readings at the lower range, requiring user input for correct reading corresponding to applied pressure via HART configuration tool.
+
+- Upper Trim: Adjusts readings at the upper range and requires similar user interaction as with the Lower Trim using a HART configuration tool. Note that this trim must 
+always be done after zero trim adjustment.
+
+- Zero Trim: Assumes applied pressure is zero, allowing for calibration without inputting any value when differential transmitter cameras are equalized or specific conditions apply (e.g., gage transmitter opening to atmosphere). This also involves ensuring the tap levels on the electronic housing of the LD301 are correct before applying this trim.
+
+- Pressure Trim: A general term that may refer to both Lower and Upper pressure trims, used for calibrating pressures across a range in transmitters with nonlinear characteristics or specific requirements.
+⏱️ RESPONSE TIME: 29.12 seconds
+--------------------------------------------------
+
+--- QUESTION 2 ---
+QUESTION: The LD301 contains a variable that defines the device address in a HART® network. For the different versions of the HART® protocol, what are the possible address values, and when configured in multidrop mode, which icon is indicated? What is the factory default configuration of the LD301?
+ANSWER: The LD301 contains a variable that defines its device address within a HART® network. For different versions of the HART protocol (HART version 5 and HART version 7), possible addresses range as follows: for HART version 5, they are from "0" to "15", while for HART version 7, these extend up to "63". When configured in multidrop mode on a network that uses the LD301 transmitter's factory default configuration settings (which is set with address '0'), an icon indicating MD or Multidrop will be shown.
+
+The correct wiring for HART version 5 and Controller Mode, as well as incorrect configurations are not provided in this context; however, it can generally be understood 
+that proper connections must ensure the integrity of signal lines without short-circuiting between shields and housings on multidrop networks. The factory default configuration has the LD301 set with address '0'.
+
+In summary:
+- HART version 5 addresses range from "0" to "15". Incorrect configurations are not explicitly described, but they would involve improper wiring or incorrect settings that deviate from standard practices. The correct configuration is the factory default setting of LD301 with address '0'. When in multidrop mode for HART version 5, an MD 
+icon indicates this setup on display interfaces like touchscreens and LED indicators if available.
+- For HART version 7 addresses range from "1" to "63". The incorrect configurations would similarly involve improper wiring or settings that deviate from the standard practices for multidrop networks in a HART protocol environment, while correct configuration involves setting up each transmitter with unique identifiers within their respective address ranges.
+
+The factory default of LD301 is configured to have an 'address' set at 0 when it leaves the factory and operates as either Transmitter or Controller mode depending on its firmware version, which starts from HART protocol revision "8".
+⏱️ RESPONSE TIME: 17.26 seconds
+--------------------------------------------------
+
+📊 PERFORMANCE SUMMARY - phi3:latest
+Total Time: 46.38s
+Average Time: 23.19s
+Minimum Time: 17.26s
+Maximum Time: 29.12s
+
+============================================================
+TESTING OLLAMA MODEL: llama3:latest
+============================================================
+
+--- QUESTION 1 ---
+QUESTION: The Pressure Trim process is used to adjust the measurement in relation to the applied pressure according to the user's pressure standard. Usually, the most common discrepancy found in transmitters is a zero shift, which can be corrected through a zero pressure trim or a lower pressure trim. What are the types of Pressure Trim available in the LD301? Please list them in bullet points along with their descriptions.
+ANSWER: According to the provided context, there are four types of Pressure Trim available in the LD301:
+
+• **Lower Trim**: Used to trim the reading at the lower range. The user informs the transmitter the correct reading for the applied pressure via HART configuration tool.• **Upper Trim**: Used to trim the reading at the upper range. The user informs the transmitter the correct reading for the applied pressure via HART configuration tool.• **Zero Trim**: Similar to the Lower Trim, but assumed that the applied pressure is zero. The reading equal to zero must be active when the pressures of differential transmitters are equalized or when a gage transmitter opens to atmosphere or when the absolute transmitter is applied to vacuum.
+
+Note: These trims can correct for zero displacement and other discrepancies in the measurement.
+⏱️ RESPONSE TIME: 67.59 seconds
+--------------------------------------------------
+
+--- QUESTION 2 ---
+QUESTION: The LD301 contains a variable that defines the device address in a HART® network. For the different versions of the HART® protocol, what are the possible address values, and when configured in multidrop mode, which icon is indicated? What is the factory default configuration of the LD301?
+ANSWER: According to the provided context, the LD301 contains a variable that defines the equipment address in a HART network. For HART version 5 addresses range from 0 
+to 15 and for HART version 7 addresses range from 0 to 63.
+
+When configured in multidrop mode, the display will indicate the MD icon.
+
+The factory default configuration of the LD301 is set to address 0.
+⏱️ RESPONSE TIME: 20.67 seconds
+--------------------------------------------------
+
+📊 PERFORMANCE SUMMARY - llama3:latest
+Total Time: 88.25s
+Average Time: 44.13s
+Minimum Time: 20.67s
+Maximum Time: 67.59s
+
+============================================================
+TESTING OLLAMA MODEL: gemma:2b
+============================================================
+
+--- QUESTION 1 ---
+QUESTION: The Pressure Trim process is used to adjust the measurement in relation to the applied pressure according to the user's pressure standard. Usually, the most common discrepancy found in transmitters is a zero shift, which can be corrected through a zero pressure trim or a lower pressure trim. What are the types of Pressure Trim available in the LD301? Please list them in bullet points along with their descriptions.
+ANSWER: Sure, here's a list of the types of Pressure Trim available in the LD301:
+
+- **Lower Trim:** Trim the reading at the lower range. The user informs the transmitter the correct reading for the applied pressure via HART configuration tool.        
+
+
+- **Upper Trim:** Trim the reading at the upper range. The user informs the transmitter the correct reading for the applied pressure via HART configuration tool.        
+
+
+- **Zero Trim:** Trim the reading at zero. The reading equal to zero must be active when the pressures of differential transmitter cameras are equalized or when a gage transmitter opens to atmosphere or when the absolute transmitter is applied to the vacuum.
+
+
+- **Primary Variable Trim - Pressure:** Primary Variable Trim - Pressure is determined from the sensor reading by means of a primary variable, which is determined from the sensor reading by means of a primary variable.
+⏱️ RESPONSE TIME: 21.13 seconds
+--------------------------------------------------
+
+--- QUESTION 2 ---
+QUESTION: The LD301 contains a variable that defines the device address in a HART® network. For the different versions of the HART® protocol, what are the possible address values, and when configured in multidrop mode, which icon is indicated? What is the factory default configuration of the LD301?
+ANSWER: Sure, here's the answer to the question:
+
+**Possible address values for different HART® protocol versions:**
+
+- HART version 5: 0 to 15
+- HART version 7: 0 to 63
+
+**When configured in multidrop mode, the MD icon is indicated.**
+
+**Factory default configuration of the LD301:**
+
+The LD301 is configured with address 0 when it is shipped from the factory.
+⏱️ RESPONSE TIME: 5.09 seconds
+--------------------------------------------------
+
+📊 PERFORMANCE SUMMARY - gemma:2b
+Total Time: 26.23s
+Average Time: 13.11s
+Minimum Time: 5.09s
+Maximum Time: 21.13s
+
+################################################################################
+TESTING GROQ MODELS (CLOUD - NO CREDIT LIMITS)
+################################################################################
+
+============================================================
+TESTING GROQ MODEL: llama-3.1-8b-instant
+============================================================
+
+--- QUESTION 1 ---
+QUESTION: The Pressure Trim process is used to adjust the measurement in relation to the applied pressure according to the user's pressure standard. Usually, the most common discrepancy found in transmitters is a zero shift, which can be corrected through a zero pressure trim or a lower pressure trim. What are the types of Pressure Trim available in the LD301? Please list them in bullet points along with their descriptions.
+ANSWER: The types of Pressure Trim available in the LD301 are:
+
+• **Lower Trim**: Used to trim the reading at the lower range. The user informs the transmitter the correct reading for the applied pressure via HART configuration tool.
+
+• **Upper Trim**: Used to trim the reading at the upper range. The user informs the transmitter the correct reading for the applied pressure via HART configuration tool. **Note:** The upper pressure trim shall always be applied after the zero trim.
+
+• **Zero Trim**: Similar to the lower trim but is assumed that the applied pressure is zero. The reading equal to zero must be active when the pressures of differential 
+transmitter cameras are equalized or when a gage transmitter opens to atmosphere or when the absolute transmitter is applied to the vacuum. Therefore, the user does not 
+need to enter with any value.
+
+• **Characterization Trim**: Used to correct any possible intrinsic non-linearity to the conversion process. Characterization is done by means of a linearization table, 
+with up to five points. The user shall apply pressure and use the HART configuration tools to inform the pressure value applied to each point of the table.
+⏱️ RESPONSE TIME: 1.59 seconds
+--------------------------------------------------
+
+--- QUESTION 2 ---
+QUESTION: The LD301 contains a variable that defines the device address in a HART® network. For the different versions of the HART® protocol, what are the possible address values, and when configured in multidrop mode, which icon is indicated? What is the factory default configuration of the LD301?
+ANSWER: The LD301 contains a variable that defines the equipment address in a HART network. 
+
+For HART version 5, the possible address values are from 0 to 15.
+For HART version 7, the possible address values are from 0 to 63.
+
+When configured in multidrop mode, the display will indicate the MD icon.
+
+The factory default configuration of the LD301 is address 0.
+⏱️ RESPONSE TIME: 1.02 seconds
+--------------------------------------------------
+
+📊 PERFORMANCE SUMMARY - llama-3.1-8b-instant
+Total Time: 2.62s
+Average Time: 1.31s
+Minimum Time: 1.02s
+Maximum Time: 1.59s
+
+============================================================
+TESTING GROQ MODEL: llama-3.3-70b-versatile
+============================================================
+
+--- QUESTION 1 ---
+QUESTION: The Pressure Trim process is used to adjust the measurement in relation to the applied pressure according to the user's pressure standard. Usually, the most common discrepancy found in transmitters is a zero shift, which can be corrected through a zero pressure trim or a lower pressure trim. What are the types of Pressure Trim available in the LD301? Please list them in bullet points along with their descriptions.
+ANSWER: The LD301 has four types of Pressure Trim available:
+
+* **Lower Trim**: Used to trim the reading at the lower range. The user informs the transmitter the correct reading for the applied pressure via HART configuration tool.* **Upper Trim**: Used to trim the reading at the upper range. The user informs the transmitter the correct reading for the applied pressure via HART configuration tool. Note that the upper pressure trim should always be applied after the zero trim.
+* **Zero Trim**: Similar to the lower trim, but assumes the applied pressure is zero. The reading equal to zero must be active when the pressures of differential transmitter cameras are equalized, or when a gage transmitter opens to atmosphere, or when the absolute transmitter is applied to the vacuum.
+* **Characterization Trim**: Used to correct any possible intrinsic non-linearity to the conversion process. Characterization is done by means of a linearization table, 
+with up to five points, and is usually not required due to the efficiency of the production process.
+⏱️ RESPONSE TIME: 1.18 seconds
+--------------------------------------------------
+
+--- QUESTION 2 ---
+QUESTION: The LD301 contains a variable that defines the device address in a HART® network. For the different versions of the HART® protocol, what are the possible address values, and when configured in multidrop mode, which icon is indicated? What is the factory default configuration of the LD301?
+ANSWER: The LD301 contains a variable that defines the equipment address in a HART network. The possible address values for the different versions of the HART protocol are:
+
+- HART version 5: addresses range from 0 to 15
+- HART version 7: addresses range from 0 to 63
+
+For multidrop connections:
+- HART 5: addresses 1 to 15
+- HART 7: addresses 1 to 63
+
+When configured in multidrop mode, the display will indicate the MD icon.
+
+The LD301 leaves the factory configured with address 0.
+⏱️ RESPONSE TIME: 0.92 seconds
+--------------------------------------------------
+
+📊 PERFORMANCE SUMMARY - llama-3.3-70b-versatile
+Total Time: 2.10s
+Average Time: 1.05s
+Minimum Time: 0.92s
+Maximum Time: 1.18s
+
+============================================================
+TESTING GROQ MODEL: deepseek-r1-distill-llama-70b
+============================================================
+
+--- QUESTION 1 ---
+QUESTION: The Pressure Trim process is used to adjust the measurement in relation to the applied pressure according to the user's pressure standard. Usually, the most common discrepancy found in transmitters is a zero shift, which can be corrected through a zero pressure trim or a lower pressure trim. What are the types of Pressure Trim available in the LD301? Please list them in bullet points along with their descriptions.
+ANSWER: <think>
+Okay, so I need to figure out the types of Pressure Trim available in the LD301 transmitter based on the provided manual excerpts. Let me start by reading through the context carefully.
+
+First, I see that the manual mentions several types of trims: Zero Trim, Lower Trim, Upper Trim, and Characterization Trim. Each of these seems to have specific purposes.
+
+Zero Trim is described as compensating for the final assembly position and performance when the transmitter is in its final position. It's used when the applied pressure is zero, like when equalizing the differential transmitter or when an absolute transmitter is under vacuum. The user doesn't need to input any values here.
+
+Lower Trim is used to adjust the reading at the lower end of the range. The user inputs the correct pressure value using a HART tool. This is typically for zero displacement issues.
+
+Upper Trim adjusts the upper range. It's important to do this after Zero Trim. The user also inputs the correct pressure here.
+
+Characterization Trim is for correcting non-linearity. It uses a linearization table with up to five points. The user applies pressure and uses HART tools to set each point. However, this is usually not needed because the production process is efficient.
+
+I should list these four types: Zero, Lower, Upper, and Characterization Trims, each with their descriptions as mentioned.
+</think>
+
+The LD301 transmitter features four types of Pressure Trim, each serving distinct purposes to ensure accurate measurements:
+
+1. **Zero Trim**: Adjusts the transmitter when the applied pressure is zero, such as during equalization or vacuum conditions. No user input is required.
+
+2. **Lower Trim**: Corrects the lower range measurement by allowing the user to input the correct pressure value via HART tools, addressing zero displacement issues.    
+
+3. **Upper Trim**: Adjusts the upper range measurement, performed after Zero Trim, with user input for the correct pressure value.
+
+4. **Characterization Trim**: Uses a linearization table to correct non-linearity, typically not needed due to efficient production processes.
+
+These trims collectively enhance the transmitter's accuracy across its operating range.
+⏱️ RESPONSE TIME: 2.36 seconds
+--------------------------------------------------
+
+--- QUESTION 2 ---
+QUESTION: The LD301 contains a variable that defines the device address in a HART® network. For the different versions of the HART® protocol, what are the possible address values, and when configured in multidrop mode, which icon is indicated? What is the factory default configuration of the LD301?
+ANSWER: <think>
+Okay, so I need to figure out the answer to this question about the LD301 device and its HART protocol addressing. Let me start by reading through the provided context carefully.
+
+The question is asking about the possible address values for different HART protocol versions, the icon indicated when in multidrop mode, and the factory default configuration.
+
+First, I remember that HART protocol has different versions, specifically version 5 and version 7. The context mentions that HART version 5 addresses range from 0 to 15, while version 7 addresses go from 0 to 63. So, that's the first part: version 5 has addresses 0-15, and version 7 has 0-63.
+
+Next, when the device is configured in multidrop mode, the display shows an MD icon. That's a key point to note.
+
+The factory default configuration is address 0. The context says the LD301 leaves the factory configured with address 0. So that's the default.
+
+I should also consider the implications of changing the address. The note mentions that when the address is changed from 0 in Transmitter mode, the output current becomes constant at 4 mA. But that's more about the behavior when changing the address, not directly part of the question.
+
+Additionally, in multidrop mode for version 5, addresses 1-15 are used, and for version 7, 1-63. So, in multidrop, the addresses start from 1 and go up to 15 or 63, depending on the version.
+
+Putting it all together, the answer should state the address ranges for each HART version, mention the MD icon in multidrop, and the factory default address of 0.       
+</think>
+
+The LD301 device operates with different address ranges depending on the HART protocol version. For HART version 5, the addresses range from 0 to 15, while version 7 addresses range from 0 to 63. When configured in multidrop mode, the device displays an MD icon. The factory default configuration sets the address to 0.
+
+**Answer:**
+- HART version 5 addresses range from 0 to 15.
+- HART version 7 addresses range from 0 to 63.
+- In multidrop mode, the MD icon is displayed.
+- The factory default address is 0.
+⏱️ RESPONSE TIME: 2.41 seconds
+--------------------------------------------------
+
+📊 PERFORMANCE SUMMARY - deepseek-r1-distill-llama-70b
+Total Time: 4.77s
+Average Time: 2.39s
+Minimum Time: 2.36s
+Maximum Time: 2.41s
+
+============================================================
+TESTING GROQ MODEL: gemma2-9b-it
+============================================================
+
+--- QUESTION 1 ---
+QUESTION: The Pressure Trim process is used to adjust the measurement in relation to the applied pressure according to the user's pressure standard. Usually, the most common discrepancy found in transmitters is a zero shift, which can be corrected through a zero pressure trim or a lower pressure trim. What are the types of Pressure Trim available in the LD301? Please list them in bullet points along with their descriptions.
+ANSWER: Here are the types of Pressure Trim available in the LD301, based on the provided text:
+
+* **Zero Trim:**  Used to correct for zero displacement. This is done by setting the reading to zero when the applied pressure is zero.  It's particularly relevant when 
+differential transmitter chambers are equalized, a gage transmitter opens to atmosphere, or an absolute transmitter is applied to a vacuum.
+
+* **Lower Trim:** Used to adjust the reading at the lower end of the pressure range. The user inputs the correct reading for a specific applied pressure using the HART® 
+configuration tool.
+
+* **Upper Trim:** Used to adjust the reading at the upper end of the pressure range. Similar to the Lower Trim, the user inputs the correct reading for a specific applied pressure using the HART® configuration tool.  It's important to apply the Upper Trim *after* the Zero Trim.
+
+
+Let me know if you have any other questions about the LD301!
+
+⏱️ RESPONSE TIME: 0.97 seconds
+--------------------------------------------------
+
+--- QUESTION 2 ---
+QUESTION: The LD301 contains a variable that defines the device address in a HART® network. For the different versions of the HART® protocol, what are the possible address values, and when configured in multidrop mode, which icon is indicated? What is the factory default configuration of the LD301?
+ANSWER: Here's a breakdown of the LD301's HART® addressing based on your provided text:
+
+**HART® Protocol Address Ranges:**
+
+* **HART 5:** Addresses range from 0 to 15.
+* **HART 7:** Addresses range from 0 to 63.
+
+**Multidrop Mode:**
+
+*  When configured in multidrop mode, the display will indicate the **MD icon**.
+
+**Factory Default Configuration:**
+
+* The LD301 leaves the factory configured with address **0**.
+
+
+Let me know if you have any other questions about the LD301 or HART® communication!
+
+⏱️ RESPONSE TIME: 0.76 seconds
+--------------------------------------------------
+
+📊 PERFORMANCE SUMMARY - gemma2-9b-it
+Total Time: 1.74s
+Average Time: 0.87s
+Minimum Time: 0.76s
+Maximum Time: 0.97s

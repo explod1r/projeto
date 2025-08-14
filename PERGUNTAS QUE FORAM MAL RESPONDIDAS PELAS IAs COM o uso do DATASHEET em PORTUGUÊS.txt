@@ -1,0 +1,352 @@
+PERGUNTAS QUE FORAM MAL RESPONDIDAS PELAS IAs COM o uso do DATASHEET em PORTUGUÊS: 
+O processo Trim de Pressão é o processo utilizado para ajustar a medida em relação à pressão aplicada de acordo com o padrão de pressão do usuário. Normalmente, a discrepância mais comum encontrada nos transmissores é o deslocamento do Zero e pode-se corrigi-lo através do trim de pressão de zero ou trim de pressão inferior. Quais são os tipos de Trim de Pressão presentes no LD301? Forneça-os em tópicos com suas descrições.
+
+O LD301 contém uma variável que define o endereço do equipamento em uma rede HART®.  Para as versões do protocolo HART®, quais são os valores de endereço e quando configurado em multidrop, qual ícone será indicado? Qual configuração de fábrica o LD301 tem?
+
+
+-----------------------------------------------------
+
+🔄 Configurando sistema RAG com PDF do LD301...
+✅ Sistema RAG configurado!
+INICIANDO TESTES COM MÚLTIPLAS PERGUNTAS E RAG
+Total de perguntas por modelo: 2
+
+################################################################################
+TESTANDO MODELOS OLLAMA (LOCAL)
+################################################################################
+
+============================================================
+TESTANDO MODELO OLLAMA: phi3:latest
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: O processo Trim de Pressão é o processo utilizado para ajustar a medida em relação à pressão aplicada de acordo com o padrão de pressão do usuário. Normalmente, a discrepância mais comum encontrada nos transmissores é o deslocamento do Zero e pode-se corrigi-lo através do trim de pressão de zero ou trim de pressão inferior. Quais são os tipos de Trim de Pressão presentes no LD301? Forneça-os em tópicos com suas descrições.
+RESPOSTA: Trim de Pressão Inferior (LOWER): é usado para ajustar a leitura na faixa de trim de pressão inferior, permitindo que o usuário informe ao transmissor a leitura correta para a pressão aplicada via configuradores HART®.
+
+Trim de Pressão Superior (UPPER): é utilizado para corrigir discrepâncias na medição da pressão superior, permitindo que o usuário informe ao transmissor as leituras adequadas através dos mesmos configuradores HART®.
+
+Zero Trim (Pressão Zero): assume a pressão aplicada como zero e é utilizado quando ambas as câmaras do transmissor depressão diferencial estão em igualdade ou ao abrir para atmosfera, além disso será usado com um transmissor manométrico aberto à atmosfera.
+
+Trim de Pressão Inferior (LOWER): é semelhante ao Zero Trim mas assume que a pressão aplicada não é zero e permite o incremento do valor mostrado no display, interpretado como um aumento na leitura da pressão inferior em relação à pressão aplicada.
+
+Trim de Pressão Superior (UPPER): funciona de maneira análoga ao Trim Inferior, mas para ajustar o valor superior relativo às condições atuais do transmissor e da câmara.
+
+Programação usando Ajuste Local: é uma função protegida por senha que permite aos usuários gravar pontos de Trim Superior na memória interna, utilizando-se um código para acessá-la após inserir e retirar chaves magnéticas.
+
+Trim de Pressão Inferior (LOWER): é uma função semelhante ao Zero Trim mas específica para o ajuste da pressão inferior em relação à aplicada, permitindo que os usuários informem valores corretos através dos configuradores HART®.
+
+Trim de Pressão Superior (UPPER): é utilizado após o Zero Trim e permite aos usuários ajustar as leituras superiores do transmissor, também por meio dos mesmos configuradores HART®.
+
+Zero Trim (Pressão Zero): serve para corrigir deslocamentos no zero em relação às condições atualizadas da câmara e/ou pressões aplicadas ao sistema de medição diferencial do transmissor, utilizando-se os configuradores HART®.
+
+Trim de Pressão Inferior (LOWER): permite que o usuário ajuste as leituras inferiores em relação às condições atualizadas da câmara e/ou pressões aplicadas ao sistema diferencial do transmissor, utilizando-se os configuradores HART®.
+
+Trim de Pressão Superior (UPPER): permite que o usu0555
+⏱️ TEMPO DE RESPOSTA: 42.33 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: O LD301 contém uma variável que define o endereço do equipamento em uma rede HART®. Para as versões do protocolo HART®, quais são os valores de endereço e quando configurado em multidrop, qual ícone será indicado? Qual configuração de fábrica o LD301 tem?
+RESPOSTA: O LD301 contém uma variável que define o endereço do equipamento na rede HART®. Para a versão 5 do protocolo, os valores dos endereços estão entre "1" e "63", 
+enquanto para a versão 7, eles variam de "1" a "63". Quando o LD301 está configurado em multidrop (multiponto), ele indica o ícone MD. O equipamento saída do LD301 é fabricado com um endereço padrão definido como "0", que significa que, por padrão, não está conectado a nenhum outro dispositivo na rede HART® e controla diretamente sua corrente de saída.
+⏱️ TEMPO DE RESPOSTA: 15.41 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - phi3:latest
+Tempo Total: 57.74s
+Tempo Médio: 28.87s
+Tempo Mínimo: 15.41s
+Tempo Máximo: 42.33s
+
+============================================================
+TESTANDO MODELO OLLAMA: llama3:latest
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: O processo Trim de Pressão é o processo utilizado para ajustar a medida em relação à pressão aplicada de acordo com o padrão de pressão do usuário. Normalmente, a discrepância mais comum encontrada nos transmissores é o deslocamento do Zero e pode-se corrigi-lo através do trim de pressão de zero ou trim de pressão inferior. Quais são os tipos de Trim de Pressão presentes no LD301? Forneça-os em tópicos com suas descrições.
+RESPOSTA: Os tipos de Trim de Pressão presentes no LD301 são:
+
+**1. Lower Trim (Pressão Inferior)**: é usado para ajustar a leitura na faixa de trim de pressão inferior. O usuário informa ao transmissor a leitura correta para a pressão aplicada, via configuradores HART.
+
+**2. Upper Trim (Pressão Superior)**: é usado para ajustar a leitura na faixa de trim de pressão superior. O usuário informa ao transmissor a leitura correta para a pressão aplicada, via configuradores HART.
+
+**3. Zero Trim (Pressão Zero)**: assume que a pressão aplicada é zero e ajusta a referência interna do transmissor para ler 0 na pressão aplicada.
+
+**4. Characterization Trim (Caracterização)**: é usado para corrigir alguma não linearidade intrínseca ao processo de conversão. A caracterização é feita através de uma 
+tabela de linearização, utilizando até 5 pontos.
+⏱️ TEMPO DE RESPOSTA: 80.99 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: O LD301 contém uma variável que define o endereço do equipamento em uma rede HART®. Para as versões do protocolo HART®, quais são os valores de endereço e quando configurado em multidrop, qual ícone será indicado? Qual configuração de fábrica o LD301 tem?
+RESPOSTA: Para as versões do protocolo HART, os valores de endereço são:
+
+* Versão 5: 0 a 15
+* Versão 7: 0 a 63
+
+Quando configurado em multidrop, o ícone MD será indicado.
+
+A configuração de fábrica do LD301 é com endereço 0.
+⏱️ TEMPO DE RESPOSTA: 24.36 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - llama3:latest
+Tempo Total: 105.36s
+Tempo Médio: 52.68s
+Tempo Mínimo: 24.36s
+Tempo Máximo: 80.99s
+
+============================================================
+TESTANDO MODELO OLLAMA: gemma:2b
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: O processo Trim de Pressão é o processo utilizado para ajustar a medida em relação à pressão aplicada de acordo com o padrão de pressão do usuário. Normalmente, a discrepância mais comum encontrada nos transmissores é o deslocamento do Zero e pode-se corrigi-lo através do trim de pressão de zero ou trim de pressão inferior. Quais são os tipos de Trim de Pressão presentes no LD301? Forneça-os em tópicos com suas descrições.
+RESPOSTA: Os tipos de Trim de Pressão presentes no LD301 são:
+
+1. **Lower Trim (Pressão Inferior):** é usado para ajustar a leitura na faixa de trim de pressão inferior. O usuário informa ao transmissor a leitura correta para a pressão aplicada, via configuradores HART®;
+
+2. **Trim de Pressão Superior (UPPER):** é usado para ajustar a leitura na faixa de trim de pressão superior. O usuário informa ao transmissor a leitura correta para a pressão aplicada, via configuradores HART®;
+
+3. **Trim de Pressão Inferior (LOWER):** é usado para ajustar a leitura na faixa de trim de pressão inferior. O usuário informa ao transmissor a leitura correta para a pressão aplicada, via configuradores HART®;
+
+4. **Trim de Pressão Superior (UPPER):** é usado para ajustar a leitura na faixa de trim de pressão superior. O usuário informa ao transmissor a leitura correta para a pressão aplicada, via configuradores HART®.
+⏱️ TEMPO DE RESPOSTA: 24.75 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: O LD301 contém uma variável que define o endereço do equipamento em uma rede HART®. Para as versões do protocolo HART®, quais são os valores de endereço e quando configurado em multidrop, qual ícone será indicado? Qual configuração de fábrica o LD301 tem?
+RESPOSTA: O LD301 contém uma variável que define o endereço do equipamento em uma rede HART®. 
+
+Para as versões do protocolo HART®, os seguintes valores de endereço são usados:
+
+- HART versão 5: 0 a 15
+- HART versão 7: 0 a 63
+
+Quando o LD301 é configurado em multidrop, o ícone MD (Multidrop) será indicado.
+
+A configuração de fábrica do LD301 é inicializada com o endereço 0.
+⏱️ TEMPO DE RESPOSTA: 6.01 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - gemma:2b
+Tempo Total: 30.76s
+Tempo Médio: 15.38s
+Tempo Mínimo: 6.01s
+Tempo Máximo: 24.75s
+
+################################################################################
+TESTANDO MODELOS GROQ (CLOUD - SEM LIMITE DE CRÉDITOS)
+################################################################################
+
+============================================================
+TESTANDO MODELO GROQ: llama-3.1-8b-instant
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: O processo Trim de Pressão é o processo utilizado para ajustar a medida em relação à pressão aplicada de acordo com o padrão de pressão do usuário. Normalmente, a discrepância mais comum encontrada nos transmissores é o deslocamento do Zero e pode-se corrigi-lo através do trim de pressão de zero ou trim de pressão inferior. Quais são os tipos de Trim de Pressão presentes no LD301? Forneça-os em tópicos com suas descrições.
+RESPOSTA: Existem 4 tipos de Trim de Pressão presentes no LD301:
+
+**1. Lower Trim (Pressão Inferior)**
+
+- É usado para ajustar a leitura na faixa de trim de pressão inferior.
+- O usuário informa ao transmissor a leitura correta para a pressão aplicada, via configuradores HART.
+
+**2. Upper Trim (Pressão Superior)**
+
+- É usado para ajustar a leitura na faixa de trim de pressão superior.
+- O usuário informa ao transmissor a leitura correta para a pressão aplicada, via configuradores HART.
+- ATENÇÃO: O trim de pressão superior deve ser feito sempre após o trim de zero.
+
+**3. Zero Trim (Pressão Zero)**
+
+- É usado para ajustar a leitura quando a pressão aplicada é zero.
+- A leitura zero deve ser ativada quando as pressões de ambas as câmaras do transmissor de pressão diferencial estão equalizadas ou quando um transmissor manométrico é aberto para atmosfera, ou quando um transmissor de pressão absoluta é submetido ao vácuo.
+- O usuário não precisa entrar com nenhum valor.
+
+**4. Characterization Trim (Caracterização)**
+
+- É usado para corrigir alguma não linearidade intrínseca ao processo de conversão.
+- A caracterização é feita através de uma tabela de linearização, utilizando até 5 pontos.
+- O usuário deve aplicar a pressão e informar via configuradores HART, o valor da pressão aplicada para cada ponto da tabela.
+- Na maioria dos casos, o uso da caracterização é desnecessário, em função da eficiência do processo de fabricação.
+⏱️ TEMPO DE RESPOSTA: 1.56 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: O LD301 contém uma variável que define o endereço do equipamento em uma rede HART®. Para as versões do protocolo HART®, quais são os valores de endereço e quando configurado em multidrop, qual ícone será indicado? Qual configuração de fábrica o LD301 tem?
+RESPOSTA: De acordo com o texto fornecido, os valores de endereço para as versões do protocolo HART são:
+
+- Versão 5: 0 a 15
+- Versão 7: 0 a 63
+
+Quando configurado em multidrop, o ícone que será indicado no display é o ícone MD.
+
+A configuração de fábrica do LD301 é com endereço 0.
+⏱️ TEMPO DE RESPOSTA: 1.02 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - llama-3.1-8b-instant
+Tempo Total: 2.57s
+Tempo Médio: 1.29s
+Tempo Mínimo: 1.02s
+Tempo Máximo: 1.56s
+
+============================================================
+TESTANDO MODELO GROQ: llama-3.3-70b-versatile
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: O processo Trim de Pressão é o processo utilizado para ajustar a medida em relação à pressão aplicada de acordo com o padrão de pressão do usuário. Normalmente, a discrepância mais comum encontrada nos transmissores é o deslocamento do Zero e pode-se corrigi-lo através do trim de pressão de zero ou trim de pressão inferior. Quais são os tipos de Trim de Pressão presentes no LD301? Forneça-os em tópicos com suas descrições.
+RESPOSTA: Existem 4 tipos de Trim de Pressão no LD301:
+
+*   **Lower Trim (Pressão Inferior)**: é usado para ajustar a leitura na faixa de trim de pressão inferior. O usuário informa ao transmissor a leitura correta para a pressão aplicada, via configuradores HART.
+*   **Upper Trim (Pressão Superior)**: é usado para ajustar a leitura na faixa de trim de pressão superior. O usuário informa ao transmissor a leitura correta para a pressão aplicada, via configuradores HART.
+*   **Zero Trim (Pressão Zero)**: é muito similar ao trim de pressão inferior, mas ele assume que a pressão aplicada é zero. A leitura zero deve ser ativada quando as pressões de ambas as câmaras do transmissor de pressão diferencial estão equalizadas ou quando um transmissor manométrico é aberto para atmosfera, ou quando um transmissor de pressão absoluta é submetido ao vácuo.
+*   **Characterization Trim (Caracterização)**: é usado para corrigir alguma não linearidade intrínseca ao processo de conversão. A caracterização é feita através de uma tabela de linearização, utilizando até 5 pontos. O usuário deve aplicar a pressão e informar via configuradores HART, o valor da pressão aplicada para cada ponto da tabela.
+⏱️ TEMPO DE RESPOSTA: 1.55 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: O LD301 contém uma variável que define o endereço do equipamento em uma rede HART®. Para as versões do protocolo HART®, quais são os valores de endereço e quando configurado em multidrop, qual ícone será indicado? Qual configuração de fábrica o LD301 tem?
+RESPOSTA: O LD301 contém uma variável que define o endereço do equipamento em uma rede HART. Os endereços do HART variam de acordo com a versão do protocolo: na versão 5, os endereços vão de 0 a 15, e na versão 7, de 0 a 63. Para conexão multidrop, os endereços específicos são de 1 a 15 para a versão 5 e de 1 a 63 para a versão 7. Quando configurado em multidrop, o display do LD301 indicará o ícone "MD". O LD301 sai de fábrica configurado com o endereço 0.
+⏱️ TEMPO DE RESPOSTA: 1.78 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - llama-3.3-70b-versatile
+Tempo Total: 3.33s
+Tempo Médio: 1.67s
+Tempo Mínimo: 1.55s
+Tempo Máximo: 1.78s
+
+============================================================
+TESTANDO MODELO GROQ: deepseek-r1-distill-llama-70b
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: O processo Trim de Pressão é o processo utilizado para ajustar a medida em relação à pressão aplicada de acordo com o padrão de pressão do usuário. Normalmente, a discrepância mais comum encontrada nos transmissores é o deslocamento do Zero e pode-se corrigi-lo através do trim de pressão de zero ou trim de pressão inferior. Quais são os tipos de Trim de Pressão presentes no LD301? Forneça-os em tópicos com suas descrições.
+RESPOSTA: <think>
+Okay, so I need to figure out the types of pressure trim adjustments available on the LD301 transmitter based on the provided context. Let me start by reading through the context carefully to identify the different trims mentioned.
+
+First, the context mentions that the most common discrepancy in transmitters is the Zero displacement, which can be corrected using either the Zero trim or the Lower trim. It then lists four types of pressure trims in the LD301: Lower Trim, Upper Trim, Zero Trim, and Characterization Trim.
+
+Looking at each section, the Lower Trim is described as adjusting the reading in the lower pressure range. The Upper Trim does the same but for the upper range. Zero Trim is for when the applied pressure is zero, and it's noted that the user doesn't need to input any values here. Characterization Trim is for correcting intrinsic non-linearity using up to five points, though it's usually unnecessary.
+
+I should make sure I capture each type accurately with their descriptions. Also, I need to present them in a clear, bullet-point format as per the example response. I'll structure each trim with a brief explanation based on the context provided.
+</think>
+
+### Tipos de Trim de Pressão no LD301:
+
+1. **Lower Trim (Pressão Inferior):**
+   - Utilizado para ajustar a leitura na faixa de pressão inferior.
+   - O usuário informa a leitura correta via configuradores HART®.
+
+2. **Upper Trim (Pressão Superior):**
+   - Ajusta a leitura na faixa de pressão superior.
+   - Também configurado via HART®.
+
+3. **Zero Trim (Pressão Zero):**
+   - Corrige a leitura quando a pressão aplicada é zero.
+   - Ativado quando as câmaras do transmissor estão equalizadas ou em condições específicas.
+
+4. **Characterization Trim (Caracterização):**
+   - Corrige não linearidades intrínsecas usando uma tabela de linearização com até 5 pontos.
+   - Geralmente desnecessário devido à eficiência do processo de fabricação.
+
+Esses ajustes permitem calibrar o transmissor de acordo com o padrão de pressão do usuário, garantindo precisão nas leituras.
+⏱️ TEMPO DE RESPOSTA: 2.77 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: O LD301 contém uma variável que define o endereço do equipamento em uma rede HART®. Para as versões do protocolo HART®, quais são os valores de endereço e quando configurado em multidrop, qual ícone será indicado? Qual configuração de fábrica o LD301 tem?
+RESPOSTA: <think>
+Ok, vou tentar responder à pergunta com base no contexto fornecido. Primeiro, preciso identificar as informações relevantes sobre as versões do protocolo HART, os valores de endereço e o ícone indicado em modo multidrop, além da configuração de fábrica do LD301.
+
+No contexto, está mencionado que o LD301 tem endereços diferentes dependendo da versão do HART. Para a versão 5, os endereços variam de 0 a 15, e para a versão 7, de 0 a 63. Além disso, em modo multidrop, os endereços específicos são de 1 a 15 para HART 5 e 1 a 63 para HART 7. O ícone MD é exibido quando configurado em multidrop.       
+
+A configuração de fábrica do LD301 é endereço 0. Isso está claro em várias partes do texto.
+
+Agora, organizando as informações:
+
+- Versão HART 5: endereços 0 a 15. Modo multidrop usa 1 a 15.
+- Versão HART 7: endereços 0 a 63. Modo multidrop usa 1 a 63.
+- Ícone MD em modo multidrop.
+- Configuração de fábrica: endereço 0.
+
+Preciso garantir que a resposta inclua todas essas informações de forma clara e concisa.
+</think>
+
+**Resposta:**
+
+O LD301 possui endereços HART® que variam conforme a versão do protocolo:
+
+- **HART® 5:** Endereços de 0 a 15. Em modo multidrop, os endereços específicos são de 1 a 15.
+- **HART® 7:** Endereços de 0 a 63. Em modo multidrop, os endereços específicos são de 1 a 63.
+
+Quando configurado em multidrop, o display exibe o ícone **MD**.
+
+A configuração de fábrica do LD301 é o endereço **0**.
+⏱️ TEMPO DE RESPOSTA: 2.25 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - deepseek-r1-distill-llama-70b
+Tempo Total: 5.02s
+Tempo Médio: 2.51s
+Tempo Mínimo: 2.25s
+Tempo Máximo: 2.77s
+
+============================================================
+TESTANDO MODELO GROQ: gemma2-9b-it
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: O processo Trim de Pressão é o processo utilizado para ajustar a medida em relação à pressão aplicada de acordo com o padrão de pressão do usuário. Normalmente, a discrepância mais comum encontrada nos transmissores é o deslocamento do Zero e pode-se corrigi-lo através do trim de pressão de zero ou trim de pressão inferior. Quais são os tipos de Trim de Pressão presentes no LD301? Forneça-os em tópicos com suas descrições.
+RESPOSTA: O LD301 possui 4 tipos de Trim de Pressão:
+
+* **Zero Trim (Pressão Zero):**
+    * Corrige o deslocamento do zero, assumindo que a pressão aplicada é zero.
+    * É utilizado quando as pressões nas câmaras do transmissor diferencial estão equalizadas, quando um transmissor manométrico está aberto à atmosfera ou quando um transmissor de pressão absoluta está em vácuo.
+    * O usuário não precisa inserir nenhum valor.
+
+* **Lower Trim (Pressão Inferior):**
+    * Ajusta a leitura na faixa de pressão inferior.
+    * O usuário informa ao transmissor a leitura correta para a pressão aplicada através dos configuradores HART®.
+
+* **Upper Trim (Pressão Superior):**
+    * Ajusta a leitura na faixa de pressão superior.
+    * O usuário informa ao transmissor a leitura correta para a pressão aplicada através dos configuradores HART®.
+    * Deve ser realizado após o trim de zero.
+
+* **Characterization Trim (Caracterização):**
+    * Corrige não linearidades intrínsecas ao processo de conversão.
+    * É feito através de uma tabela de linearização com até 5 pontos.
+    * O usuário aplica a pressão e informa o valor da pressão aplicada para cada ponto da tabela.
+    * Geralmente não é necessário devido à eficiência do processo de fabricação.
+
+
+
+
+⏱️ TEMPO DE RESPOSTA: 1.33 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: O LD301 contém uma variável que define o endereço do equipamento em uma rede HART®. Para as versões do protocolo HART®, quais são os valores de endereço e quando configurado em multidrop, qual ícone será indicado? Qual configuração de fábrica o LD301 tem?
+RESPOSTA: O LD301 possui uma variável que define o endereço do equipamento em uma rede HART®. 
+
+* **HART versão 5:** Os endereços variam de 0 a 15, sendo de 1 a 15 para conexão multidrop.
+* **HART versão 7:** Os endereços variam de 0 a 63, sendo de 1 a 63 para conexão multidrop.
+
+Quando configurado em multidrop, o display indicará o ícone **MD**.
+
+A configuração de fábrica do LD301 é com o endereço **0**.
+
+
+
+⏱️ TEMPO DE RESPOSTA: 0.88 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - gemma2-9b-it
+Tempo Total: 2.21s
+Tempo Médio: 1.11s
+Tempo Mínimo: 0.88s
+Tempo Máximo: 1.33s

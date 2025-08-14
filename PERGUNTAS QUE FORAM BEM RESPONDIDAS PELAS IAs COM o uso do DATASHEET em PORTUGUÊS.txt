@@ -1,0 +1,335 @@
+PERGUNTAS QUE FORAM BEM RESPONDIDAS PELAS IAs COM o uso do DATASHEET em PORTUGUÊS: 
+À partir do datasheet fornecido sobre o produto  SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+
+Como deve ser feita a montagem do equipamento LD301, por exemplo:  ele é sensível a quais tipos de fatores externos, o que deve ser evitado, quais aparelhos não devem ser instalados próximos( e porquê), etc.
+
+
+-----------------------------------------------------		
+
+🔄 Configurando sistema RAG com PDF do LD301...
+✅ Sistema RAG configurado!
+INICIANDO TESTES COM MÚLTIPLAS PERGUNTAS E RAG
+Total de perguntas por modelo: 2
+
+################################################################################
+TESTANDO MODELOS OLLAMA (LOCAL)
+################################################################################
+
+============================================================
+TESTANDO MODELO OLLAMA: phi3:latest
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+RESPOSTA: O SMAR LD301 utiliza uma comunicação digital para se conectar e trocar dados com dispositivos HART® compatíveis. O protocolo HART permite a transmissão de sinais elétricos bidimensionais que podem ser usados tanto em sistemas pneumáticos quanto eletrônicos, oferecendo flexibilidade e retrocompatibilidade com equipamentos mais 
+antigos do mesmo tipo.
+⏱️ TEMPO DE RESPOSTA: 31.41 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: Como deve ser feita a montagem do equipamento LD301, por exemplo: ele é sensível a quais tipos de fatores externos, o que deve ser evitado, quais aparelhos não devem ser instalados próximos( e porquê), etc.
+RESPOSTA: Para montar um LD301 adequadamente, é fundamental seguir as recomendações de instalação apresentadas no manual do produto para evitar problemas que possam comprometer a operação segura e confiável da máquina. Aqui estão algumas diretrizes importantes:
+
+Sensibilidade aos Fatores Externos:
+- O LD301 é sensível às flutuações de temperatura, portanto, ele deve ser instalado em um local com condições climáticas estáveis. Evite locais onde o equipamento possa 
+sofrer mudanças bruscas de temperatura ou exposta a fontes externas como luz solar direta que podem afetar as leituras do sensor e da próprio transmissor.
+- O LD301 também deve ser instalado em um ambiente livre de vibrações excessivas, pois isso poderia interferir na precisão das medições. Além disso, ele é sensível a campos magnéticos fortes que podem afetar o funcionamento do transmissor e da saída elétrica.
+- A instalação deve evitar locais com alta umidade ou onde possa haver risco de inundação para proteger contra danos causados pela água, como em pernas molhadas.        
+
+Aparelhos a Juntar:
+- O LD301 não deve ser instalado próximo ao equipamento que utilize o mesmo tipo de sensor ou transmissor por causa da interferência elétrica e das leituras imprecisas resultantes dessa proximidade. Por exemplo, se você estiver utilizando um medidor LD301 para medições em vazão, não deve instalar outro dispositivo que utilize o mesmo sensor ou transmissor próximo ao primeiro.
+- Além disso, evite a instalação de equipamentos eletrônicos sensíveis perto do LD301 devido à interferência eletromagnética poteniceira e emissão excessiva de calor que podem afetar o funcionamento adequado dos dispositivos.
+- Também é importante manter uma distância segura entre os fios elétricos do LD301 e outros equipamentos eletrônicos para evitar interferências nas medições causadas por correntes de ripple ou ruídos eletromagnéticos.
+- Evite a instalação próxima ao transmissor, como um modem ou outro dispositivo que utilize o mesmo tipo de cabo (por exemplo: RG58/U). Isso pode causar interferência e 
+afetar as medições do LD301.
+- Além disso, evite a instalação próxima ao equipamento com altas frequências ou que utilize dispositivos de alta potência para minimizar o risco de danos aos componentes eletrônicos e garantir leituras precisas do LD301.
+- Por fim, é importante manter uma distância segura entre os equipamentos elétricos em relação ao transmissor para evitar interferências causadas por campos magnéticos fortes que podem afetar o funcionamento adequado do LD301.
+
+Em resumo, a instalação correta e segura de um equipamento LD301 requer atenção cuidadosa às condições ambientais externas para garantir leituras precisas das medições sem interferências elétricas ou magnéticas que possam comprometer o funcionamento adequado do dispositivo. Ao seguir as recomendações acima, você pode instalar seu LD301 
+com segurança e confiabilidade em qualquer ambiente industrializado.
+⏱️ TEMPO DE RESPOSTA: 27.59 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - phi3:latest
+Tempo Total: 59.00s
+Tempo Médio: 29.50s
+Tempo Mínimo: 27.59s
+Tempo Máximo: 31.41s
+
+============================================================
+TESTANDO MODELO OLLAMA: llama3:latest
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+RESPOSTA: De acordo com as informações fornecidas no manual do produto SMAR LD301, o tipo de transmissão de sinal elétrico conectado é 4-20 mA.
+⏱️ TEMPO DE RESPOSTA: 57.99 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: Como deve ser feita a montagem do equipamento LD301, por exemplo: ele é sensível a quais tipos de fatores externos, o que deve ser evitado, quais aparelhos não devem ser instalados próximos( e porquê), etc.
+RESPOSTA: A montagem do equipamento LD301!
+
+Para uma instalação segura e eficaz, é importante considerar alguns fatores externos que podem afetar o desempenho do equipamento. Aqui estão algumas dicas importantes: 
+
+**Fatores externos a serem evitados:**
+
+1. **Radiação solar**: O LD301 pode ser sensível à radiação solar, especialmente se estiver instalado em uma área com forte exposição ao sol.
+2. **Vibrações**: A instalação do equipamento em áreas com vibrações intensas (como máquinas industriais) pode afetar a precisão da medição.
+3. **Temperatura**: O LD301 é sensível à temperatura ambiente, portanto, é importante manter o equipamento em uma área com temperatura estável e moderada.
+
+**Aparelhos que não devem ser instalados próximos:**
+
+1. **Fontes de calor**: Aproximar o LD301 de fontes de calor (como motores ou aparelhos elétricos) pode afetar a precisão da medição.
+2. **Equipamentos com campos magnéticos**: Instalar o LD301 perto de equipamentos que gerem campos magnéticos (como motores elétricos ou geradores) pode interferir na medição.
+
+**Dicas para uma instalação segura:**
+
+1. **Instale o equipamento em uma área protegida**: Certifique-se de que o LD301 esteja instalado em uma área livre de riscos e obstáculos.
+2. **Maneje a temperatura ambiente**: Manter o equipamento em uma área com temperatura estável e moderada é fundamental para sua precisão.
+3. **Evite vibrações intensas**: Instale o LD301 em uma área com vibrações suaves ou nulas para evitar interferências na medição.
+
+**Outras considerações:**
+
+1. **Certifique-se de que a alimentação elétrica seja adequada**: Verifique se a alimentação elétrica está dentro dos parâmetros especificados pelo fabricante.
+2. **Maneje o equipamento com cuidado**: Trate o LD301 com cuidado e evite danos físicos ou mecânicos.
+
+Lembre-se de que é fundamental seguir as instruções do manual de instrução para uma instalação segura e eficaz do equipamento LD301.
+⏱️ TEMPO DE RESPOSTA: 78.46 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - llama3:latest
+Tempo Total: 136.45s
+Tempo Médio: 68.23s
+Tempo Mínimo: 57.99s
+Tempo Máximo: 78.46s
+
+============================================================
+TESTANDO MODELO OLLAMA: gemma:2b
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+RESPOSTA: O tipo de transmissão de sinal elétrico que é conectado ao SMAR LD301 - HART® é um sinal de pressão.
+⏱️ TEMPO DE RESPOSTA: 22.58 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: Como deve ser feita a montagem do equipamento LD301, por exemplo: ele é sensível a quais tipos de fatores externos, o que deve ser evitado, quais aparelhos não devem ser instalados próximos( e porquê), etc.
+RESPOSTA: A montagem do equipamento LD301 não é descrita no contexto, por isso, esta resposta não pode ser fornecida.
+⏱️ TEMPO DE RESPOSTA: 4.19 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - gemma:2b
+Tempo Total: 26.77s
+Tempo Médio: 13.39s
+Tempo Mínimo: 4.19s
+Tempo Máximo: 22.58s
+
+################################################################################
+TESTANDO MODELOS GROQ (CLOUD - SEM LIMITE DE CRÉDITOS)
+################################################################################
+
+============================================================
+TESTANDO MODELO GROQ: llama-3.1-8b-instant
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+RESPOSTA: O produto SMAR LD301 - HART® utiliza um sinal de transmissão de 4-20 mA.
+⏱️ TEMPO DE RESPOSTA: 1.41 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: Como deve ser feita a montagem do equipamento LD301, por exemplo: ele é sensível a quais tipos de fatores externos, o que deve ser evitado, quais aparelhos não devem ser instalados próximos( e porquê), etc.
+RESPOSTA: A montagem do equipamento LD301 deve ser feita com cuidado e atenção aos seguintes fatores:
+
+1. **Localização**: O equipamento deve ser instalado em um local seco, fresco e longe de fontes de calor diretas, como radiadores, fogões ou lâmpadas.
+2. **Nível de ruído**: O equipamento é sensível a ruídos de alta frequência, portanto, deve ser instalado em um local com nível de ruído baixo.
+3. **Eletricidade**: O equipamento deve ser conectado a uma fonte de alimentação estável e segura, com tensão adequada (12V DC ou 24V DC).
+4. **Sensor**: O sensor deve ser instalado de acordo com as instruções do fabricante e deve ser protegido de danos físicos, como choques ou impactos.
+5. **Conexões**: As conexões elétricas devem ser feitas de acordo com as instruções do fabricante e devem ser seguras e estanques.
+6. **Acessibilidade**: O equipamento deve ser instalado de forma que seja fácil de acessar e manter.
+7. **Proteção contra escrita**: O equipamento deve ser protegido contra escrita, como choques elétricos ou impactos físicos.
+8. **Ambiente**: O equipamento deve ser instalado em um ambiente com temperatura entre 0°C e 40°C e umidade relativa entre 20% e 80%.
+
+Aparelhos que não devem ser instalados próximos ao LD301 incluem:
+
+1. **Fontes de calor**: Radiadores, fogões, lâmpadas, etc.
+2. **Fontes de ruído**: Máquinas de alta frequência, motores, etc.
+3. **Equipamentos elétricos**: Outros equipamentos elétricos que possam causar interferência ou choques elétricos.
+4. **Equipamentos que emitem radiação**: Equipamentos que emitem radiação, como raios X ou ultrassom.
+
+É importante lembrar que o LD301 é um equipamento de precisão e deve ser instalado e mantido de acordo com as instruções do fabricante para garantir sua precisão e durabilidade.
+⏱️ TEMPO DE RESPOSTA: 1.53 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - llama-3.1-8b-instant
+Tempo Total: 2.94s
+Tempo Médio: 1.47s
+Tempo Mínimo: 1.41s
+Tempo Máximo: 1.53s
+
+============================================================
+TESTANDO MODELO GROQ: llama-3.3-70b-versatile
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+RESPOSTA: O tipo de transmissão de sinal elétrico conectado ao SMAR LD301 - HART® é um sinal de corrente de 4-20 mA. Isso é mencionado no manual de instruções, onde se lê que "o configurador pode ser conectado no mesmo cabo do sinal de 4-20 mA até 2000 metros de distância do transmissor".
+⏱️ TEMPO DE RESPOSTA: 0.90 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: Como deve ser feita a montagem do equipamento LD301, por exemplo: ele é sensível a quais tipos de fatores externos, o que deve ser evitado, quais aparelhos não devem ser instalados próximos( e porquê), etc.
+RESPOSTA: A montagem do equipamento LD301 deve ser feita com cuidado para garantir seu funcionamento correto e seguro. Aqui estão algumas considerações importantes:
+
+1. **Instalação em local adequado**: O LD301 deve ser instalado em um local seco, fresco e bem ventilado, longe de fontes de calor, umidade e vibrações.
+2. **Proteção contra interferências eletromagnéticas**: O LD301 pode ser sensível a interferências eletromagnéticas (EMI) de outros equipamentos, como motores, geradores, transformadores, etc. Portanto, é recomendável instalar o LD301 a uma distância segura desses equipamentos.
+3. **Evitar instalação próxima a equipamentos de alta frequência**: Equipamentos como transmissores de rádio, micro-ondas, etc. podem interferir no funcionamento do LD301.
+4. **Proteção contra choques elétricos**: O LD301 deve ser instalado em um local com proteção contra choques elétricos, como um painel de distribuição de energia com disjuntor ou fusível.
+5. **Conexão correta**: A conexão do LD301 deve ser feita de acordo com as instruções do fabricante, utilizando os conectores e cabos adequados.
+6. **Verificar a compatibilidade com outros equipamentos**: Antes de instalar o LD301, verifique se ele é compatível com outros equipamentos que serão conectados a ele, 
+como sensores, atuadores, etc.
+7. **Evitar instalação em áreas de alta umidade**: O LD301 não é projetado para funcionar em ambientes com alta umidade, portanto, é recomendável evitar sua instalação em áreas como cozinhas, banheiros, etc.
+8. **Manter o equipamento limpo e seco**: O LD301 deve ser mantido limpo e seco para garantir seu funcionamento correto e evitar danos.
+
+Alguns aparelhos que não devem ser instalados próximos ao LD301 incluem:
+
+* Motores e geradores
+* Transformadores e reatores
+* Equipamentos de alta frequência, como transmissores de rádio e micro-ondas
+* Equipamentos de solda e corte
+* Fontes de calor, como fornos e estufas
+
+Esses aparelhos podem gerar interferências eletromagnéticas, calor, vibrações ou outros fatores que podem afetar o funcionamento do LD301.
+
+Em resumo, a montagem do LD301 deve ser feita com cuidado, considerando fatores como localização, proteção contra interferências eletromagnéticas, choques elétricos e umidade, além de garantir a compatibilidade com outros equipamentos e manter o equipamento limpo e seco.
+⏱️ TEMPO DE RESPOSTA: 2.26 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - llama-3.3-70b-versatile
+Tempo Total: 3.15s
+Tempo Médio: 1.58s
+Tempo Mínimo: 0.90s
+Tempo Máximo: 2.26s
+
+============================================================
+TESTANDO MODELO GROQ: deepseek-r1-distill-llama-70b
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+RESPOSTA: <think>
+Ok, vou tentar entender qual é o tipo de transmissão de sinal elétrico conectado ao transmissor de pressão SMAR LD301 HART®. Primeiro, lembro que os transmissores industriais geralmente usam sinais elétricos padrão para comunicação e saída. O modelo LD301 menciona suporte ao protocolo HART®.
+
+O protocolo HART® é um protocolo de comunicação digital que opera sobre fios, tipicamente usando fios de par trançado. Ele permite a transmissão de dados digitais sobre 
+o sinal analógico de 4-20 mA. Isso significa que além do sinal de saída analógico, o transmissor pode enviar e receber dados digitais via HART®.
+
+No manual, há menção a configuradores HART® e a possibilidade de conexão via cabo de sinal de 4-20 mA, o que sugere que o sinal elétrico primário é o 4-20 mA. Além disso, o LD301 pode ser configurado usando ferramentas DD e FDT/DTM, o que reforça a ideia de que ele usa um sinal analógico com sobreposição de comunicação digital.
+
+Portanto, o tipo de transmissão de sinal elétrico conectado ao LD301 é provavelmente o sinal analógico de 4-20 mA com suporte ao protocolo HART® para comunicação digital.
+</think>
+
+O transmissor de pressão SMAR LD301 utiliza um sinal elétrico de **4-20 mA** para transmissão analógica, com suporte adicional ao protocolo HART® para comunicação digital.
+⏱️ TEMPO DE RESPOSTA: 2.11 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: Como deve ser feita a montagem do equipamento LD301, por exemplo: ele é sensível a quais tipos de fatores externos, o que deve ser evitado, quais aparelhos não devem ser instalados próximos( e porquê), etc.
+RESPOSTA: <think>
+Ok, estou tentando entender como montar o equipamento LD301. Primeiro, preciso saber quais fatores externos podem afetá-lo. O manual menciona problemas de interface não 
+conectada ou danificada, endereços repetidos no barramento, transmissor reversamente polarizado, fonte de alimentação inadequada, entre outros. Isso me faz pensar que a 
+instalação elétrica é crucial.
+
+Talvez eu precise garantir que a fonte de alimentação esteja dentro das especificações do LD301. Se a tensão for muito alta ou muito baixa, pode danificar o equipamento. Além disso, a polaridade correta é importante para evitar problemas de curto-circuito ou danos ao transmissor.
+
+O que mais? O manual fala sobre sensores desconectados ou com defeito. Isso sugere que a conexão dos sensores deve ser feita com cuidado, garantindo que estejam bem fixados e não haja interferências. Talvez fios soltos ou conectores danificados possam causar problemas.
+
+Interferências eletromagnéticas podem ser um problema. Se o LD301 for instalado perto de equipamentos que emitem fortes campos eletromagnéticos, como motores ou outros dispositivos industriais, isso pode afetar seu desempenho. Então, é melhor mantê-lo longe desses aparelhos.
+
+O ambiente também é importante. Se o local for muito quente ou úmido, pode danificar os componentes eletrônicos. Talvez seja necessário um ambiente climatizado ou usar proteções contra poeira e umidade.
+
+Ainda, o manual menciona a importância da versão do software. Se o configurador e o transmissor tiverem versões incompatíveis, pode haver erros. Portanto, é essencial garantir que ambos estejam atualizados e compatíveis.
+
+Interligação com outros dispositivos na mesma rede pode causar conflitos de endereço. Devo verificar se cada dispositivo tem um endereço único no barramento para evitar 
+problemas de comunicação.
+
+Além disso, durante a instalação, é importante seguir as instruções do fabricante para evitar danos. Pessoal treinado deve realizar a montagem para garantir que tudo esteja conforme especificado.
+
+Resumindo, a montagem do LD301 exige atenção à instalação elétrica correta, proteção contra interferências, ambiente adequado, compatibilidade de software e configuração de rede sem conflitos. Evitar certos aparelhos próximos, como fontes de EM, e garantir que os sensores estejam bem conectados são pontos-chave.
+</think>
+
+**Resposta:**
+
+A montagem do equipamento LD301 requer atenção a vários fatores externos e condições ambientais para garantir seu funcionamento adequado. Aqui estão as diretrizes principais:
+
+1. **Instalação Elétrica:**
+   - **Fonte de Alimentação:** Certifique-se de que a fonte de alimentação esteja dentro das especificações do LD301. Uma tensão inadequada pode danificar o equipamento.   - **Polaridade Correta:** Conecte o transmissor com a polaridade correta para evitar danos por curto-circuito ou reversão de tensão.
+
+2. **Conexão de Sensores:**
+   - **Conexões Seguras:** Garanta que os sensores estejam bem conectados e fixados. Conectores soltos ou danificados podem causar falhas.
+
+3. **Interferências Eletromagnéticas:**
+   - **Equipamentos Próximos:** Mantenha o LD301 afastado de dispositivos que emitem fortes campos eletromagnéticos, como motores industriais, para evitar interferências.
+
+4. **Ambiente:**
+   - **Clima Controlado:** Instale o equipamento em um ambiente com temperatura e umidade controladas. Evite exposição excessiva a calor, umidade ou poeira.
+
+5. **Software e Configuração:**
+   - **Versão Compatível:** Assegure-se de que o software do configurador e o transmissor LD301 estejam na mesma versão compatível para evitar erros de comunicação.     
+   - **Endereços Únicos:** Verifique que cada dispositivo na rede tenha um endereço único para prevenir conflitos de comunicação.
+
+6. **Proteção contra Interferências:**
+   - **Blindagem:** Use cabos blindados para reduzir a interferência eletromagnética e eletrostática
+⏱️ TEMPO DE RESPOSTA: 4.25 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - deepseek-r1-distill-llama-70b
+Tempo Total: 6.36s
+Tempo Médio: 3.18s
+Tempo Mínimo: 2.11s
+Tempo Máximo: 4.25s
+
+============================================================
+TESTANDO MODELO GROQ: gemma2-9b-it
+============================================================
+
+--- PERGUNTA 1 ---
+PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+RESPOSTA: O manual menciona que o LD301 utiliza o protocolo **HART®** para comunicação digital. 
+
+
+Portanto, o tipo de transmissão de sinal elétrico conectado é **HART®**.
+
+⏱️ TEMPO DE RESPOSTA: 0.56 segundos
+--------------------------------------------------
+
+--- PERGUNTA 2 ---
+PERGUNTA: Como deve ser feita a montagem do equipamento LD301, por exemplo: ele é sensível a quais tipos de fatores externos, o que deve ser evitado, quais aparelhos não devem ser instalados próximos( e porquê), etc.
+RESPOSTA: Infelizmente, o texto fornecido não contém informações específicas sobre a montagem do equipamento LD301. 
+
+Ele aborda tópicos como:
+
+* **Funcionalidades:** Descreve as funções do LD301, como o modo de monitoração, ajuste local e mensagens de erro.
+* **Configurações:** Menciona a configuração do burnout, proteção contra escrita e função de transferência.
+* **Manual Completo:** Indica que detalhes sobre instalação, operação e manutenção estão disponíveis em um manual completo.
+
+**Para obter informações detalhadas sobre a montagem do LD301, incluindo:**
+
+* **Sensibilidade a fatores externos:** Temperatura, umidade, vibrações, etc.
+* **Evitar:**  Instalações inadequadas, corrosão, interferências eletromagnéticas.
+* **Aparelhos próximos a evitar:** Equipamentos que gerem interferências eletromagnéticas ou campos eletromagnéticos fortes.
+
+**Você precisa consultar o manual completo do LD301.** Ele fornecerá instruções precisas e seguras para a instalação e operação do equipamento.
+
+
+
+⏱️ TEMPO DE RESPOSTA: 1.00 segundos
+--------------------------------------------------
+
+📊 RESUMO DE PERFORMANCE - gemma2-9b-it
+Tempo Total: 1.57s
+Tempo Médio: 0.78s
+Tempo Mínimo: 0.56s
+Tempo Máximo: 1.00s
