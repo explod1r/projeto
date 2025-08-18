@@ -4,7 +4,6 @@ PERGUNTAS QUE FORAM BEM RESPONDIDAS PELAS IAs SEM o uso do DATASHEET em PORTUGU�
 
 Como deve ser feita a montagem do equipamento LD301, por exemplo:  ele é sensível a quais tipos de fatores externos, o que deve ser evitado, quais aparelhos não devem ser instalados próximos( e porquê), etc.
 
-
 -----------------------------------------------------
 
 INICIANDO TESTES COM MÚLTIPLAS PERGUNTAS
@@ -421,3 +420,4 @@ Tempo Médio: 0.62s
 Tempo Mínimo: 0.40s
 
 Tempo Máximo: 0.84s
+
