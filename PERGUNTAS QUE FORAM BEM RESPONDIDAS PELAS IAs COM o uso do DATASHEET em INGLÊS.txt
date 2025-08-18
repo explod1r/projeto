@@ -20,7 +20,7 @@ TESTING OLLAMA MODEL: phi3:latest
 ============================================================
 
 --- QUESTION 1 ---
-QUESTION: From your knowledge about the product SMAR LD301 - HART® provide me what is the type of electrical signal transmission that is connected.
+QUESTION: From the datasheet provided about the SMAR LD301 - HART®  product provide me what type of electrical signal transmission is connected.  
 ANSWER: The SMAR LD301 transmitter uses a current loop for transmitting signals, specifically in the range of 4 to 20 milliamperes (mA). This method allows it to communicate with other devices or systems without requiring any direct electrical connection. The signal is carried over two wires and can be modulated based on different conditions such as zero pressure measurement represented by a "1" at 1200 Hz, while the absence of information (a logical "0") corresponds to no current flow in this loop system. This type of transmission ensures that it does not interfere with other signals and is robust against electromagnetic noise, making it suitable for industrial environments where such conditions are commonplace.
 ⏱️ RESPONSE TIME: 31.21 seconds
 --------------------------------------------------
@@ -63,7 +63,7 @@ TESTING OLLAMA MODEL: llama3:latest
 ============================================================
 
 --- QUESTION 1 ---
-QUESTION: From your knowledge about the product SMAR LD301 - HART® provide me what is the type of electrical signal transmission that is connected.
+QUESTION:From the datasheet provided about the SMAR LD301 - HART®  product provide me what type of electrical signal transmission is connected.  
 ANSWER: According to the provided context, the SMAR LD301 - HART transmitter uses a 4-20 mA current loop for signal transmission.
 ⏱️ RESPONSE TIME: 53.07 seconds
 --------------------------------------------------
@@ -101,7 +101,7 @@ TESTING OLLAMA MODEL: gemma:2b
 ============================================================
 
 --- QUESTION 1 ---
-QUESTION: From your knowledge about the product SMAR LD301 - HART® provide me what is the type of electrical signal transmission that is connected.
+QUESTION:From the datasheet provided about the SMAR LD301 - HART®  product provide me what type of electrical signal transmission is connected.  
 ANSWER: The type of electrical signal transmission that is connected to the SMAR LD301 - HART® is a 4-20 mA signal. </start_of_turn>
 ⏱️ RESPONSE TIME: 20.76 seconds
 --------------------------------------------------
@@ -127,7 +127,7 @@ TESTING GROQ MODEL: llama-3.1-8b-instant
 ============================================================
 
 --- QUESTION 1 ---
-QUESTION: From your knowledge about the product SMAR LD301 - HART® provide me what is the type of electrical signal transmission that is connected.
+QUESTION: From the datasheet provided about the SMAR LD301 - HART®  product provide me what type of electrical signal transmission is connected.  
 ANSWER: The type of electrical signal transmission connected to the SMAR LD301 HART transmitter is a 4-20 mA current loop signal. This is a two-wire system where the transmitter circuit is powered using the signal line, and the current output is proportional to the measurement.
 ⏱️ RESPONSE TIME: 3.87 seconds
 --------------------------------------------------
@@ -181,7 +181,7 @@ TESTING GROQ MODEL: llama-3.3-70b-versatile
 ============================================================
 
 --- QUESTION 1 ---
-QUESTION: From your knowledge about the product SMAR LD301 - HART® provide me what is the type of electrical signal transmission that is connected.
+QUESTION: From the datasheet provided about the SMAR LD301 - HART®  product provide me what type of electrical signal transmission is connected.  
 ANSWER: The SMAR LD301 transmitter uses a 4-20 mA signal transmission, which is a type of analog electrical signal transmission. This signal is used to transmit the measured pressure value from the transmitter to the control system or other devices. The 4-20 mA signal is a standard signal range used in industrial control systems, where 
 4 mA represents the minimum value (0% of the working range) and 20 mA represents the maximum value (100% of the working range).
 ⏱️ RESPONSE TIME: 0.94 seconds
@@ -223,7 +223,7 @@ TESTING GROQ MODEL: deepseek-r1-distill-llama-70b
 ============================================================
 
 --- QUESTION 1 ---
-QUESTION: From your knowledge about the product SMAR LD301 - HART® provide me what is the type of electrical signal transmission that is connected.
+QUESTION:From the datasheet provided about the SMAR LD301 - HART®  product provide me what type of electrical signal transmission is connected.  
 ANSWER: <think>
 Okay, so I need to figure out the type of electrical signal transmission used by the SMAR LD301 HART® transmitter. Let me start by going through the provided context and see what information I can gather.
 
@@ -316,7 +316,7 @@ TESTING GROQ MODEL: gemma2-9b-it
 ============================================================
 
 --- QUESTION 1 ---
-QUESTION: From your knowledge about the product SMAR LD301 - HART® provide me what is the type of electrical signal transmission that is connected.
+QUESTION: From the datasheet provided about the SMAR LD301 - HART®  product provide me what type of electrical signal transmission is connected.  
 ANSWER: The SMAR LD301 uses a **4-20 mA** current loop for electrical signal transmission. 
 
 
@@ -379,4 +379,5 @@ Remember, safety should always be your top priority when working with any indust
 Total Time: 2.45s
 Average Time: 1.22s
 Minimum Time: 0.88s
+
 Maximum Time: 1.57s
