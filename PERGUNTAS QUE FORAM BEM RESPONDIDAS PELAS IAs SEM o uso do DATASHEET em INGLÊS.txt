@@ -1,4 +1,5 @@
 PERGUNTAS QUE FORAM BEM RESPONDIDAS PELAS IAs SEM o uso do DATASHEET em INGLÊS: 
+
 From your knowledge about the product SMAR LD301 - HART® provide me what is the type of electrical signal transmission that is connected.
 
 How should the LD301 equipment be assembled, for example: it is sensitive to what types of external factors, what should be avoided, which devices should not be installed nearby (and why), etc.
@@ -385,4 +386,5 @@ Let me know more about the LD301 equipment, and I'll do my best to help!
 Total Time: 0.97s
 Average Time: 0.48s
 Minimum Time: 0.37s
+
 Maximum Time: 0.60s
