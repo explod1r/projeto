@@ -1,4 +1,5 @@
 PERGUNTAS QUE FORAM BEM RESPONDIDAS PELAS IAs COM o uso do DATASHEET em PORTUGUÊS: 
+
 À partir do datasheet fornecido sobre o produto  SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
 
 Como deve ser feita a montagem do equipamento LD301, por exemplo:  ele é sensível a quais tipos de fatores externos, o que deve ser evitado, quais aparelhos não devem ser instalados próximos( e porquê), etc.
@@ -334,3 +335,4 @@ Tempo Médio: 0.78s
 Tempo Mínimo: 0.56s
 
 Tempo Máximo: 1.00s
+
