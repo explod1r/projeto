@@ -4,7 +4,6 @@ O processo Trim de Pressão é o processo utilizado para ajustar a medida em rel
 
 O LD301 contém uma variável que define o endereço do equipamento em uma rede HART®.  Para as versões do protocolo HART®, quais são os valores de endereço e quando configurado em multidrop, qual ícone será indicado? Qual configuração de fábrica o LD301 tem?
 
-
 -----------------------------------------------------
 
 INICIANDO TESTES COM MÚLTIPLAS PERGUNTAS
@@ -376,4 +375,5 @@ Tempo Total: 1.05s
 Tempo Médio: 0.52s
 Tempo Mínimo: 0.49s
 Tempo Máximo: 0.56s
+
 
