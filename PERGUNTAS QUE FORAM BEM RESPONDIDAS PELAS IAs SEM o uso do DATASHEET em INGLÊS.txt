@@ -4,7 +4,6 @@ From your knowledge about the product SMAR LD301 - HART® provide me what is the
 
 How should the LD301 equipment be assembled, for example: it is sensitive to what types of external factors, what should be avoided, which devices should not be installed nearby (and why), etc.
 
-
 --------------------------------------------------
 
 STARTING TESTS WITH MULTIPLE QUESTIONS
@@ -388,3 +387,4 @@ Average Time: 0.48s
 Minimum Time: 0.37s
 
 Maximum Time: 0.60s
+
