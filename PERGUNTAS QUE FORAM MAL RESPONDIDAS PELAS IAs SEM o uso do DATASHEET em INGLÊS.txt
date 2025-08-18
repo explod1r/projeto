@@ -4,7 +4,6 @@ The Pressure Trim process is used to adjust the measurement in relation to the a
 
 The LD301 contains a variable that defines the device address in a HART® network. For the different versions of the HART® protocol, what are the possible address values, and when configured in multidrop mode, which icon is indicated? What is the factory default configuration of the LD301?
 
-
 --------------------------------------------------
 
 STARTING TESTS WITH MULTIPLE QUESTIONS
@@ -431,4 +430,5 @@ Let me know if you have any other questions about HART® or the LD301.
 Total Time: 1.15s
 Average Time: 0.57s
 Minimum Time: 0.51s
+
 Maximum Time: 0.64s
