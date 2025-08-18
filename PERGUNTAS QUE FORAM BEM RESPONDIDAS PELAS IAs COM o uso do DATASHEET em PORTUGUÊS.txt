@@ -20,7 +20,7 @@ TESTANDO MODELO OLLAMA: phi3:latest
 ============================================================
 
 --- PERGUNTA 1 ---
-PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+PERGUNTA: À partir do datasheet fornecido sobre o produto  SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
 RESPOSTA: O SMAR LD301 utiliza uma comunicação digital para se conectar e trocar dados com dispositivos HART® compatíveis. O protocolo HART permite a transmissão de sinais elétricos bidimensionais que podem ser usados tanto em sistemas pneumáticos quanto eletrônicos, oferecendo flexibilidade e retrocompatibilidade com equipamentos mais 
 antigos do mesmo tipo.
 ⏱️ TEMPO DE RESPOSTA: 31.41 segundos
@@ -61,7 +61,7 @@ TESTANDO MODELO OLLAMA: llama3:latest
 ============================================================
 
 --- PERGUNTA 1 ---
-PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+PERGUNTA: À partir do datasheet fornecido sobre o produto  SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
 RESPOSTA: De acordo com as informações fornecidas no manual do produto SMAR LD301, o tipo de transmissão de sinal elétrico conectado é 4-20 mA.
 ⏱️ TEMPO DE RESPOSTA: 57.99 segundos
 --------------------------------------------------
@@ -109,7 +109,7 @@ TESTANDO MODELO OLLAMA: gemma:2b
 ============================================================
 
 --- PERGUNTA 1 ---
-PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+PERGUNTA: À partir do datasheet fornecido sobre o produto  SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
 RESPOSTA: O tipo de transmissão de sinal elétrico que é conectado ao SMAR LD301 - HART® é um sinal de pressão.
 ⏱️ TEMPO DE RESPOSTA: 22.58 segundos
 --------------------------------------------------
@@ -135,7 +135,7 @@ TESTANDO MODELO GROQ: llama-3.1-8b-instant
 ============================================================
 
 --- PERGUNTA 1 ---
-PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+PERGUNTA: À partir do datasheet fornecido sobre o produto  SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
 RESPOSTA: O produto SMAR LD301 - HART® utiliza um sinal de transmissão de 4-20 mA.
 ⏱️ TEMPO DE RESPOSTA: 1.41 segundos
 --------------------------------------------------
@@ -175,7 +175,7 @@ TESTANDO MODELO GROQ: llama-3.3-70b-versatile
 ============================================================
 
 --- PERGUNTA 1 ---
-PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+PERGUNTA: À partir do datasheet fornecido sobre o produto  SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
 RESPOSTA: O tipo de transmissão de sinal elétrico conectado ao SMAR LD301 - HART® é um sinal de corrente de 4-20 mA. Isso é mencionado no manual de instruções, onde se lê que "o configurador pode ser conectado no mesmo cabo do sinal de 4-20 mA até 2000 metros de distância do transmissor".
 ⏱️ TEMPO DE RESPOSTA: 0.90 segundos
 --------------------------------------------------
@@ -219,7 +219,7 @@ TESTANDO MODELO GROQ: deepseek-r1-distill-llama-70b
 ============================================================
 
 --- PERGUNTA 1 ---
-PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+PERGUNTA: À partir do datasheet fornecido sobre o produto  SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
 RESPOSTA: <think>
 Ok, vou tentar entender qual é o tipo de transmissão de sinal elétrico conectado ao transmissor de pressão SMAR LD301 HART®. Primeiro, lembro que os transmissores industriais geralmente usam sinais elétricos padrão para comunicação e saída. O modelo LD301 menciona suporte ao protocolo HART®.
 
@@ -296,7 +296,7 @@ TESTANDO MODELO GROQ: gemma2-9b-it
 ============================================================
 
 --- PERGUNTA 1 ---
-PERGUNTA: À partir de seus conhecimentos sobre o produto SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
+PERGUNTA: À partir do datasheet fornecido sobre o produto  SMAR LD301 - HART® me forneça qual é o tipo de transmissão de sinal elétrico que é conectado.
 RESPOSTA: O manual menciona que o LD301 utiliza o protocolo **HART®** para comunicação digital. 
 
 
@@ -332,4 +332,5 @@ Ele aborda tópicos como:
 Tempo Total: 1.57s
 Tempo Médio: 0.78s
 Tempo Mínimo: 0.56s
+
 Tempo Máximo: 1.00s
