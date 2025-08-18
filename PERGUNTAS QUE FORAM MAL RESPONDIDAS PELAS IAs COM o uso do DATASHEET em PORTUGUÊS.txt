@@ -1,4 +1,5 @@
 PERGUNTAS QUE FORAM MAL RESPONDIDAS PELAS IAs COM o uso do DATASHEET em PORTUGUÊS: 
+
 O processo Trim de Pressão é o processo utilizado para ajustar a medida em relação à pressão aplicada de acordo com o padrão de pressão do usuário. Normalmente, a discrepância mais comum encontrada nos transmissores é o deslocamento do Zero e pode-se corrigi-lo através do trim de pressão de zero ou trim de pressão inferior. Quais são os tipos de Trim de Pressão presentes no LD301? Forneça-os em tópicos com suas descrições.
 
 O LD301 contém uma variável que define o endereço do equipamento em uma rede HART®.  Para as versões do protocolo HART®, quais são os valores de endereço e quando configurado em multidrop, qual ícone será indicado? Qual configuração de fábrica o LD301 tem?
@@ -349,4 +350,5 @@ A configuração de fábrica do LD301 é com o endereço **0**.
 Tempo Total: 2.21s
 Tempo Médio: 1.11s
 Tempo Mínimo: 0.88s
+
 Tempo Máximo: 1.33s
